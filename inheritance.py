@@ -51,9 +51,9 @@ class Ostrich(Bird):
     def fly(self):
         print(f"{self.name} couldn't fly")
 
-class Hummingbird(Bird):
-    def __init__(self, name) -> None:
-        super().__init__(name)
+# class Hummingbird(Bird):
+#     def __init__(self, name) -> None:
+#         super().__init__(name)
 
     def fly(self):
         super().fly()
